@@ -115,7 +115,6 @@ a:active {
   padding: 0 15px;
 }
 
-
 .row {
   margin: 25px 0;
   /* 25px top and bottom, 0 left and right */
@@ -463,9 +462,11 @@ nav>ul {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.dashboardconclusion h3{
+
+.dashboardconclusion h3 {
   margin-top: 50px;
 }
+
 .hamburger:hover {
   cursor: pointer;
 }
@@ -1081,7 +1082,7 @@ h1 {
 }
 
 .postit span {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   max-width: 200px;
   color: #000000;
@@ -1091,7 +1092,7 @@ h1 {
 }
 
 .postit2 span {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   max-width: 200px;
   color: #000000;
@@ -1167,7 +1168,6 @@ h1 {
   display: table;
 }
 
-
 .dashboardresearch .dashboardfeedback {
   float: left;
   width: 100%;
@@ -1183,20 +1183,27 @@ Medium devices (640px and larger)
     margin-top: 100px;
   }
 
+  .postit span {
+    font-size: 20px;
+  }
+
+  .postit2 span {
+    font-size: 20px;
+  }
+
   .dashboardresearch .dashboardfeedback {
     float: left;
     width: 33%;
   }
 
-
   .button.dashboardprototype {
-  padding: 10px 100px;
-  width: auto;
+    padding: 10px 100px;
+    width: auto;
   }
 
   .button.prototype {
-  padding: 10px 100px;
-  width: auto;
+    padding: 10px 100px;
+    width: auto;
   }
 
   .column-storyboard {
@@ -1327,7 +1334,7 @@ Medium devices (640px and larger)
   }
 
   .storyboard .widercontainer {
-      padding: 0;
+    padding: 0;
     margin-top: 25px;
   }
 
