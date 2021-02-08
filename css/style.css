@@ -78,7 +78,7 @@ a:active {
 
 .button {
   display: inline-block;
-background-color: #0766D4;
+  background-color: #0766D4;
   font-weight: 400;
   padding: 10px 30px;
   border-radius: 4px;
@@ -111,6 +111,14 @@ background-color: #0766D4;
   padding: 0 15px;
 }
 
+.widecontainer {
+  padding: 0 15px;
+}
+
+.widercontainer {
+  padding: 0 15px;
+}
+
 .row {
   margin: 25px 0;
   /* 25px top and bottom, 0 left and right */
@@ -124,7 +132,6 @@ background-color: #0766D4;
   margin: 0;
   /* 25px top and bottom, 0 left and right */
 }
-
 
 header {
   padding: 10px 0 4px;
@@ -163,7 +170,7 @@ nav>ul {
 nav>ul>li>a {
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 400;
   color: #000000;
   border-bottom: 2px solid transparent;
   transition: 0.2s;
@@ -253,12 +260,24 @@ footer ul>li {
   background-color: #D4D372;
 }
 
+.dashboardhero {
+  background-color: #72D4B9;
+  padding: 50px 0;
+  vertical-align: middle;
+}
+
 .patiimg1 img {
   width: 90%;
   padding: 50px 0;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.paticompetitors {
+  max-height: 150px;
+  max-width: 178px;
+  margin-left: 50px;
 }
 
 .patimain h1, .patimain h2 {
@@ -325,6 +344,23 @@ footer ul>li {
   width: auto;
 }
 
+.column-storyboard {
+  float: left;
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  list-style-type: none;
+  display: table;
+  justify-content: center;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+}
+
+.column-storyboard img {
+  height: 300px;
+  width: 300px;
+}
+
 .vocappimage {
   background-color: #f4fad2
 }
@@ -385,14 +421,13 @@ strong {
 }
 
 #logo {
-    max-width: 60px;
-    margin-top: 5px;
-    transition: 0.5s;
+  max-width: 75px;
+  margin-top: 5px;
+  transition: 0.5s;
 }
 
-
 #active-mobile {
-    background-color: #C8F449;
+  background-color: #C8F449;
 }
 
 nav>ul {
@@ -481,8 +516,16 @@ nav>ul {
   margin-top: 50px;
 }
 
+#userinterface img {
+  max-width: 500px;
+}
+
 #userinterface h2 {
   margin: 20px 0 30px 0;
+}
+
+#conclusion {
+  padding-bottom: 50px;
 }
 
 #whatispati {
@@ -511,10 +554,6 @@ nav>ul {
   margin-top: 68px;
 }
 
-.flow {
-  margin-top: 30px;
-}
-
 #flow2 {
   padding-top: 50px;
 }
@@ -522,7 +561,7 @@ nav>ul {
 .wireframes {
   margin-top: 50px;
   padding: 50px 0;
-  background-image: linear-gradient(to bottom, #A7B0C0, #B7C0D0);
+  background: #F5F3F0;
 }
 
 .morespace {
@@ -540,16 +579,31 @@ nav>ul {
 }
 
 .button.prototype {
+  display: inline-block;
   color: #151c83 !important;
   transition: 0.1s color ease-in-out;
-  padding: 10px 100px;
   margin-bottom: 50px;
   background-color: transparent;
   border: 2px solid #151c83;
+  width: 100%;
 }
 
 .button.prototype:hover {
   background-color: #151c83;
+  color: #ffffff !important;
+}
+
+.button.dashboardprototype {
+  color: #403646 !important;
+  transition: 0.1s color ease-in-out;
+  margin-bottom: 50px;
+  background-color: transparent;
+  border: 2px solid #403646;
+  width: 100%;
+}
+
+.button.dashboardprototype:hover {
+  background-color: #403646;
   color: #ffffff !important;
 }
 
@@ -558,10 +612,26 @@ nav>ul {
   background-color: #e3e2e8;
 }
 
+#dashboardprototypebutton {
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
 #buttoncv {
   text-align: center;
   margin: auto;
   margin-top: 30px;
+}
+
+.visualdesign {
+  margin: 75px 0;
+  padding: 75px 0;
+  background-color: #DADDE2;
+}
+
+.visualdesign h2 {
+  margin-top: 0;
 }
 
 .button.links {
@@ -578,12 +648,8 @@ nav>ul {
 }
 
 #hero {
-  padding: 10px 0 0 0;
+  padding-top: 10px;
   background-color: #fafafa;
-  background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center;
- background-size: cover;
 }
 
 #hero span {
@@ -599,8 +665,32 @@ background-position: center;
   width: 30%;
 }
 
+#usabilityissues {
+  padding: 50px 0;
+  background: #F0F2F5;
+}
+
+#usabilityissues span {
+  padding: 20px;
+  font-size: 14px;
+  display: block;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#usabilityissues img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+  width: auto;
+  height: auto;
+  max-height: 450px;
+}
+
 .projectsmainpage {
-  border-radius:4px;
+  border-radius: 4px;
 }
 
 .projectsmainpage:hover {
@@ -612,10 +702,10 @@ background-position: center;
 }
 
 .oval {
-  background: #F9DBCF;
+  background: #32175E;
   margin: auto;
-  width: 75px;
-  height: 75px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -623,8 +713,50 @@ background-position: center;
 }
 
 .oval span {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 600;
+  color: #ffffff;
+  width: auto;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.rectangle {
+  background: #F8F8F8;
+  margin: auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 50px;
+}
+
+.rectangle span {
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  width: auto;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.rectangle2 {
+  background: #F8F8F8;
+  margin: auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 50px;
+}
+
+.rectangle2 span {
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: 400;
   color: #000000;
   width: auto;
   display: block;
@@ -633,8 +765,8 @@ background-position: center;
 
 .userinsight-text span {
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  color: #EE8761;
+  font-size: 16px;
+  color: #32175E;
   font-weight: 700;
   display: flex;
   height: 75px;
@@ -650,13 +782,18 @@ background-position: center;
   list-style-type: none;
 }
 
+h1 {
+  font-size: 25px;
+  position: relative;
+}
+
 .insight {
   padding: 20px 0;
   margin-bottom: 10px;
   border: 2px solid;
   border-color: white;
   border-radius: 10px;
-  box-shadow: 0 4px 3px 0px rgba(145,145,145,0.1);
+  box-shadow: 0 4px 3px 0px rgba(145, 145, 145, 0.1);
 }
 
 .userinsight {
@@ -782,18 +919,18 @@ background-position: center;
   display: table;
 }
 
-.website-row:after{
+.website-row:after {
   content: "";
   clear: both;
   display: table;
 }
 
-.videotopmargin{
-  margin-top:85px;
+.videotopmargin {
+  margin-top: 85px;
 }
 
-.videotopmargin2{
-  margin-top:50px;
+.videotopmargin2 {
+  margin-top: 50px;
 }
 
 .morespace-section {
@@ -849,6 +986,190 @@ background-position: center;
   margin: 0;
 }
 
+#usabilityissues2 {
+  padding: 0;
+}
+
+#usabilityissues2 p {
+  font-size: 14px;
+  margin-left: 0px;
+}
+
+#usabilityissues3 p {
+  font-size: 14px;
+  margin-left: 0px;
+}
+
+#usabilityissues4 p {
+  font-size: 14px;
+}
+
+#usabilityissues4 {
+  padding-top: 0;
+}
+
+#issue4 {
+  padding-top: 50px;
+}
+
+#issue3 {
+  background: #F5F0F0;
+  padding-top: 50px;
+}
+
+#issue1 {
+  background: #F0F2F5;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+
+#issue2 {
+  padding-top: 50px;
+}
+
+#issue1 p {
+  margin: 0;
+}
+
+#issue3 p {
+  margin: 0;
+}
+
+#usabilityissues3 {
+  padding: 50px 0;
+  background: #F5F0F0;
+}
+
+#dashboardchallenge {
+  background: #E5D9D6;
+  margin: 50px 0;
+  padding: 10px 0 100px 0;
+}
+
+.storyboard {
+  background: #E9F0EB;
+}
+
+.postit {
+  background: #feff9c;
+  margin: auto;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(2deg);
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.3);
+  margin-top: 30px;
+}
+
+.postit2 {
+  background: #ADF8FA;
+  margin: auto;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(2deg);
+  box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.3);
+  margin-top: 30px;
+}
+
+.postit span {
+  font-size: 20px;
+  font-weight: 600;
+  max-width: 200px;
+  color: #000000;
+  width: auto;
+  display: block;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.postit2 span {
+  font-size: 20px;
+  font-weight: 600;
+  max-width: 200px;
+  color: #000000;
+  width: auto;
+  display: block;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.failure {
+  background: #EFDDDD;
+  margin: auto;
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: left;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.failure strong {
+  padding: 0;
+  color: #BA7676;
+}
+
+.seconditeration img {
+  max-width: 600px;
+}
+
+.dashboardcardflow {
+  margin: 50px 0;
+  padding: 50px 0;
+  background-color: #403646;
+}
+
+.portfoliopage {
+  margin: 75px 0;
+}
+
+.notifications {
+  margin: 75px 0;
+}
+
+.newnotifications {
+  margin-bottom: 75px;
+}
+
+.seconditeration h4 {
+  margin-top: 50px;
+}
+
+.statoptions {
+  padding: 50px 0;
+  background-color: #DDDBDE;
+}
+
+.statoptionsimg {
+  background-color: #DDDBDE;
+}
+
+.newstats {
+  margin: 50px 0;
+  padding: 50px 0;
+  background-color: #F7F7F7;
+}
+
+.clientlist {
+  margin-top: 75px;
+}
+
+.row::after, .dashboardresearch:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.dashboardresearch .dashboardfeedback {
+  float: left;
+  width: 100%;
+  list-style-type: none;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -858,8 +1179,80 @@ Medium devices (640px and larger)
     margin-top: 100px;
   }
 
+  .dashboardresearch .dashboardfeedback {
+    float: left;
+    width: 33%;
+  }
+
+
+  .button.dashboardprototype {
+  padding: 10px 100px;
+  width: auto;
+  }
+
+  .button.prototype {
+  padding: 10px 100px;
+  width: auto;
+  }
+
+  .column-storyboard {
+    float: left;
+    width: 20%;
+    padding: 0 20px;
+    text-align: left;
+    margin: 30px 0 50px 0;
+    list-style-type: none;
+    display: table;
+    justify-content: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+  }
+
+  .column-storyboard img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .flow {
+    margin-top: 30px;
+  }
+
+  #usabilityissues4 {
+    padding-top: 50px;
+  }
+
+  #usabilityissues2 p {
+    margin-left: 30px;
+  }
+
+  .sketch {
+    margin-top: 50px;
+  }
+
+  #usabilityissues3 p {
+    margin-left: 30px;
+  }
+
+  #usabilityissues2 {
+    padding: 50px 0;
+  }
+
+  #usabilityissues img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    width: auto;
+    height: auto;
+    max-height: 450px;
+  }
+
+  #logo {
+    max-width: 75px;
+  }
+
   #active-mobile {
-      background-color: #ffffff;
+    background-color: #ffffff;
   }
 
   .morespace-section {
@@ -886,6 +1279,15 @@ Medium devices (640px and larger)
     max-width: 50%;
   }
 
+  #issue1 {
+    padding-top: 50px;
+    margin-top: 100px;
+  }
+
+  #issue2 {
+    padding-top: 50px;
+  }
+
   .thegoals {
     float: left;
     text-align: left;
@@ -903,6 +1305,12 @@ Medium devices (640px and larger)
     padding: 20px 0;
     -webkit-box-shadow: none;
     border: 0;
+    border-radius: 0;
+  }
+
+  .leftborder {
+    border-left: 1px solid;
+    border-color: #a1a1a1;
   }
 
   header {
@@ -973,7 +1381,7 @@ Medium devices (640px and larger)
     display: block;
     margin-left: auto;
     margin-right: auto;
-      }
+  }
 
   #aboutmain h2 {
     padding-top: 0px;
@@ -981,7 +1389,7 @@ Medium devices (640px and larger)
   }
 
   #aboutmain .container {
-  max-width: 1200px;
+    max-width: 1200px;
   }
 
   #userinterface {
@@ -1062,7 +1470,6 @@ Medium devices (640px and larger)
     border: 0;
   }
 
-  /*I added code below because when contact link is clicked, nav links slipped 24px below*/
   .navtoggle.responsive nav {
     padding: 0;
   }
@@ -1097,6 +1504,16 @@ Medium devices (640px and larger)
     margin: 20px 0 0 40px;
   }
 
+  #pati_designprocess {
+    background-color: #F0F2F5;
+    padding: 100px;
+    margin-top: 100px;
+  }
+
+  #pati_designprocess h1 {
+    margin-top: 0;
+  }
+
   #skillstools {
     padding-left: 40px;
   }
@@ -1114,7 +1531,7 @@ Medium devices (640px and larger)
   }
 
   nav>ul>li>a.active {
-      font-weight: 500;
+    font-weight: 500;
   }
 
   nav>ul>li>a {
@@ -1123,11 +1540,11 @@ Medium devices (640px and larger)
 
   .userinsight .insight {
     float: left;
-    width: 33%;
+    width: 25%;
     text-align: center;
   }
 
-  #secondrow .insight {
+  #thirdrow .insight {
     float: left;
     width: 50%;
   }
@@ -1167,6 +1584,18 @@ Large devices (1024px or larger)
 
   .container {
     max-width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .widecontainer {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .widercontainer {
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }

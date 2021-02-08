@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Credit Lender's Dashboard</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header id="navbar">
+    <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html">
+          <img id="logo" src="img/logo.svg" alt="Irem Bayrak">
+        </a>
+        <nav>
+          <ul class="pullUp" id="shrink">
+            <li class="reverse"><a href="index.html#work-section" id="menuindex" onclick="menuToggle()">Work</a></li>
+            <li><a href="about.html" id="menuabout">About</a></li>
+            <li class="reverse"><a href="#contact" id="menucontact" onclick="menuToggle()">Contact</a></li>
+            <li class="hamburger" id="hamburger-1"><a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="dashboardmain">
+    <div class="section dashboardhero">
+      <div class="widercontainer">
+        <img src="img/dashboard/dashboardhero.png" alt="Dashboard project image">
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h1>ABOUT THE PROJECT</h1>
+        <p>Credit Lender's Dashboard helps credit lenders gain an instant understanding of their portfolio, monitor the essential information, and notice the changes at a glance to take immediate actions to avoid non-performing loans.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h3>My Role</h3>
+        <p>Credit lender's dashboard is a fictitious project designed to practice.</p>
+        <p>My objective was to generate a solution to a real-world problem experienced in my previous experiences. </p>
+        <p>I worked alone throughout the project, from user research to information architecture, wireframing and visual design.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Timeline</h3>
+            <p>Nov 2020-Jan 2021 </p>
+          </div>
+          <div class="col-md-6">
+            <h3>Tool</h3>
+            <p>Figma</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="dashboardchallenge">
+      <div class="container">
+        <h2>The Challenge</h2>
+        <p>Credit Lenders are responsible for determining a business client's creditworthiness by analyzing their financial statements and business prospects to identify risks and mitigants.</p>
+        <p>But their job doesn't end once a loan proposal is approved. Lenders are also responsible for monitoring clients regularly and carefully to ensure repayments will be made on time.</p>
+        <p>Banks and especially lending departments are fast-paced environments. Lenders are often exposed to information overflood. </p>
+        <p>They need to analyze a vast amount of distributed data deeply and make data-driven decisions under time pressure.</p>
+        <p>The monitoring process mostly relies on credit lender's memory, skills, and awareness. While it causes the system to be unreliable, it also puts extra pressure on lenders.</p>
+        <p>The purpose of this project is to design a dashboard that will support them in achieving their goals. </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h1>DESIGN PROCESS</h1>
+        <img src="img/dashboard/dashboarddesignprocess.png" alt="Design Thinking Process">
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h2>USER RESEARCH</h2>
+        <p>I interviewed five of my former colleagues to get a qualitative insight into their primary activities, aims, and objectives. </p>
+        <p>User interviews revealed that, in general, they have two main purposes. </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container rectangle">
+        <span>1) To identify risky clients in advance and take immediate action to avoid non-performing loan.</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="row dashboardresearch">
+
+          <div class="column dashboardfeedback">
+            <div class="postit">
+              <span>Generally, the branch informs us about an irregularity, or we notice during weekly monitoring.</span>
+            </div>
+          </div>
+
+          <div class="column dashboardfeedback">
+            <div class="postit">
+              <span>We need to act early if a drastic action is needed, we should be faster than other banks.</span>
+            </div>
+          </div>
+
+          <div class="column dashboardfeedback">
+            <div class="postit">
+              <span>I need to open different tools to check borrower’s relation with our bank and analyze recent financials.</span>
+            </div>
+          </div>
+
+          <div class="column dashboardfeedback">
+            <div class="postit">
+              <span>Early Warning System is busy-work. Checking every warning is time-consuming and some warnings are meaningless.</span>
+            </div>
+          </div>
+
+          <div class="column dashboardfeedback">
+            <div class="postit">
+              <span>I monitor all clients monthly, but I note the clients I consider risky to follow up more frequently.</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="section">
+      <div class="container rectangle2">
+        <span>2) To have an instant understanding of their portfolio.</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="row dashboardresearch">
+
+          <div class="column dashboardfeedback">
+            <div class="postit2">
+              <span>It’s hard to see the big picture regarding my portfolio. I want to know what to focus on at a glance.</span>
+            </div>
+          </div>
+
+          <div class="column dashboardfeedback">
+            <div class="postit2">
+              <span>I want to see statistics to know the characteristics of my portfolio.</span>
+            </div>
+          </div>
+
+          <div class="column dashboardfeedback">
+            <div class="postit2">
+              <span>I want to have a instant insight about my portfolio to better explain recent developments.</span>
+            </div>
+          </div>
+
+          <div class="column dashboardfeedback">
+            <div class="postit2">
+              <span>I often need a list of specific clients like Top 50 with the highest limit from the accounting department and but they don’t send it on time.</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <p class="morespace">Based on the user interview insights, I narrowed my project scope in terms of the user definition and then determined specific problems and generated possible solutions.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h2>USER PERSONA</h2>
+        <p>The users are the credit lender associates and supervisors who work as a team to manage one particular portfolio. The difference between an associate a supervisor is experience level. They are all responsible for the same tasks, but
+          the
+          supervisor also mentors and trains the associate.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h2>PROBLEM</h2>
+        <p>1) Credit lenders overlook an important development unless they're informed by someone else, or run into it during regular scanning.</p>
+        <p>2) The necessary information is distributed to tools, so they need to spend time navigating between them to achieve a task.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h2>SOLUTION</h2>
+        <p>Design a dashboard that</p>
+        <ul>
+          <li>consolidates all necessary information in one screen</li>
+          <li>highlights significant changes</li>
+          <li>provides instant access to more specific information required for decision-making</li>
+        </ul>
+        <p>So credit lenders will gain an immediate understanding of what is happening and what action to take.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h2>STORYBOARD</h2>
+        <strong>Scenario 1: Monitoring an upcoming important repayment</strong>
+      </div>
+    </div>
+
+    <div class="section storyboard">
+      <div class="widercontainer">
+        <div class="row">
+          <div class="column-storyboard">
+            <img src="img/dashboard/sb11.png" alt="stoaryboard1">
+            <span>1) The credit lender checks her dashboard and notices a large amount of repayment pending that day.</span>
+          </div>
+          <div class="column-storyboard">
+            <img src="img/dashboard/sb12.png" alt="after test">
+            <span>2) She wants to know when it’s paid. She turns on notifications for that payment to know when its status changes.</span>
+          </div>
+          <div class="column-storyboard">
+            <img src="img/dashboard/sb13.png" alt="after test">
+            <span>3) It’s afternoon and still not paid.</span>
+          </div>
+          <div class="column-storyboard">
+            <img src="img/dashboard/sb14.png" alt="after test">
+            <span>4) She contacts branch and ask about the repayment. They confirm the repayment will be made today. </span>
+          </div>
+          <div class="column-storyboard">
+            <img src="img/dashboard/sb15.png" alt="after test">
+            <span>5) She gets the notification when it is paid. </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <strong>Scenario 2: Decision-making for a risky client</strong>
+      </div>
+    </div>
+
+    <div class="section storyboard">
+      <div class="widercontainer">
+        <div class="row">
+          <div class="column-storyboard">
+            <img src="img/dashboard/sb21.png" alt="stoaryboard1">
+            <span>1) She sees there are three clients with a high-risk level in the Early Warning System (EWS).</span>
+          </div>
+          <div class="column-storyboard">
+            <img src="img/dashboard/sb22.png" alt="after test">
+            <span>2) She expands the EWS box to see more specific info like the trigger.</span>
+          </div>
+          <div class="column-storyboard">
+            <img src="img/dashboard/sb23.png" alt="after test">
+            <span>3) To decide first she checks the borrowers’ credit lines.</span>
+          </div>
+          <div class="column-storyboard">
+            <img src="img/dashboard/sb24.png" alt="after test">
+            <span>4) Then she checks current financial statements.</span>
+          </div>
+          <div class="column-storyboard">
+            <img src="img/dashboard/sb25.png" alt="after test">
+            <span>5) She decides no drastic action is needed, informs her manager and other stakeholders with the reasoning.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h2>WIREFRAMES</h2>
+        <img src="img/dashboard/sketches.png" alt="wireframe sketches">
+        <strong>Key considerations</strong>
+        <p>Before diving into wireframing my solutions, I prepared a list to refer back to concentrate on the user's needs when I feel lost.</p>
+        <ul>
+          <li>Consolidate all the necessary information for decision-making in one screen.</li>
+          <li>Provide instant access to the most visited information.</li>
+          <li>Draw user's attention to the most important data.</li>
+          <li>Use the valuable space (top-left or center ) for critical information.</li>
+          <li>Organize the information in a way that easy to consume</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section firstusabilitytest">
+      <div class="container">
+        <h2>USABILITY TESTS</h2>
+        <p>I did usability tests with 5 credit lenders with different experience levels. They also managed portfolios with varying characteristics, so their needs, expectations, and requirements were not the same.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h3>Test Results</h3>
+        <h4>Homepage</h4>
+        <img src="img/dashboard/test11.png" alt="homepage screen first version">
+        <p>-3 participants wanted to be able to see and do more without expanding a block.</p>
+        <p>-The participants like to be able to see all information on one screen without scrolling it but it lacked providing instant access to necessary information like borrowers' financial condition, total limit, and exposure amount.</p>
+        <p>They still needed to navigate in the tool to decide what action is necessary.</p>
+      </div>
+    </div>
+
+    <div class="section portfoliopage">
+      <div class="container">
+        <h4>Portfolio page</h4>
+        <img src="img/dashboard/test12.png" alt="portfolio page first version">
+        <p>-All participants wanted to see the early warning system and repayment blocks on the homepage. 3 participants said they want to notice the clients with the high-risk level and unpaid installments. </p>
+        <p>-3 participants thought the portfolio page is long.</p>
+        <p>-2 participants thought the EWS and repayment blocks are too crowded.</p>
+        <p>4 participants only scanned the statistics and said they are nice to see. They lacked provide instant insight and meaning.</p>
+      </div>
+    </div>
+
+    <div class="section notifications">
+      <div class="container">
+        <h4>Notifications</h4>
+        <img src="img/dashboard/test13.png" alt="portfolio page first version">
+        <p>-None of the test participants noticed the notification change on top right corner because they were focused on other part of the dashboard to achieve a task.</p>
+        <p>-Highlighting the new information by alerting the viewer is an important objective of this dashboard so it should be solved in some way.</p>
+      </div>
+    </div>
+
+
+    <div class="section">
+      <div class="container failure">
+        <strong>FAILURE</strong>
+        <p>The first design failed by missing some of the required information in the decision-making process. </p>
+        <p>Solution for drawing attention to new and important development didn’t work.</p>
+      </div>
+    </div>
+
+    <div class="section seconditeration">
+      <div class="container">
+        <h2>THE SECOND ITERATION</h2>
+        <p>In the second iteration, I focused on rearranging the information blocks at home and portfolio pages and improving each card's interaction to enable the viewer to get more insight and take action.</p>
+        <h4>Update: Anatomy of an information block</h4>
+        <img src="img/dashboard/iteration1.png" alt="anatomy of an information block">
+        <p>1) On hover, a helper text will appear to help the viewer interpret the information.</p>
+        <p>2) Sort and filter options are removed to keep it clean. The sort option is available for the ciritical categories.</p>
+        <p>3) Links to required information to decide like; financial statement overview, client page, the EWS page etc)</p>
+      </div>
+    </div>
+
+    <div class="section dashboardcardflow">
+      <div class="widercontainer">
+        <img src="img/dashboard/dashboardcard.png" alt="dashboard block flow">
+      </div>
+    </div>
+
+    <div class="section newnotifications">
+      <div class="container">
+        <h4>Update: New notification</h4>
+        <img src="img/dashboard/iteration2.png" alt="anatomy of an information block">
+        <p>1) To make the users more aware of a new notification, I changed the enabled notification icon by adding a rotation.</p>
+        <p>2) To provide more information about the new development, I added a preview so the users can decide to ignore it or check immediately. The preview slides in when first came and slides out after a few seconds to draw more attention to the
+          new information with movement.</p>
+        <p>3) And because it draws more attention now, I needed an option to customize notifications so the user can decide what is crucial for her/him and won't get frustrated by getting too much warning.</p>
+      </div>
+    </div>
+
+    <div class="section statoptions">
+      <div class="container">
+        <p>For the second round of tests, I wanted to test two different statistic visualization ideas to see which one works best.</p>
+        <p>1) I added one block for stats in the portfolio page where the user can choose the category using the dropdown menu and see the chart and table view side by side.</p>
+        <p>This solution would make the portfolio page shorter and ease the viewing experience by not overwhelming various charts and bright colors.</p>
+        <p>2) I added another page for stats to be visited when needed and would be out of sight otherwise.</p>
+      </div>
+    </div>
+
+    <div class="section statoptionsimg">
+      <div class="widercontainer">
+        <img src="img/dashboard/statoptions.png" alt="two different version of statistics">
+      </div>
+    </div>
+
+    <div class="section secondusabilitytest">
+      <div class="container">
+        <h2>USABILITY TESTS (2nd round)</h2>
+        <p>For the second round of tests, I recruited 5 more credit lenders. </p>
+        <p>The main objectives were to observe</p>
+        <p>- which structure works better for the statistics <br>- how new arrangement of blocks works <br> -whether the participant was able to decide with the information provided <br> - how easy the interaction was</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h3>Test Results</h3>
+        <h4>Statistics</h4>
+        <p>-All participants wanted to see the all information related to their portfolio on one page. </p>
+        <p>-3 participants didn't like to choose from the dropdown menu because it required more effort and time to check each category.</p>
+        <p>-Some categories like the product, segment, and facility type were considered irrelevant to their role.</p>
+        <p>-The participants stated that although provided as chart and list view, statistics don't bring value by itself.</p>
+        <p>-Instead of numbers shown on a chart, the participants were more concerned about the client list in each series, so they want to be able to dig deeper.</p>
+        <p>As a result, they didn’t prefer each option and needed a third solution for their needs.</p>
+      </div>
+    </div>
+
+    <div class="section newstats">
+      <div class="container">
+        <p>Based on the feedback, I removed the stat page and some of the categories.</p>
+        <p>Redesigned statistics card would provide cleaner viewing experience but more interaction.</p>
+        <img src="img/dashboard/newstats.png" alt="two different version of statistics">
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h4>Performance</h4>
+        <p>The test also revealed that the performance block would be more meaningful if labeled as a proposal overview. The quality is more important than the quantity when evaluating the performance.</p>
+        <p>Determining the performance of a credit lender is more complicated, and it is difficult to define metrics.</p>
+        <p>They were right on their point, and I also didn’t want to waste that valuable place for a nice to have information and moved it to the proposal page.</p>
+      </div>
+    </div>
+
+    <div class="section clientlist">
+      <div class="container">
+        <h4>Client List</h4>
+        <p>Three participants stated that viewing the top 25 client list is helpful and meaningful. But they wanted to have more options than the Top 25.</p>
+        <p>I added the most required categories like Top 50, leveraged clients, and the risk groups.</p>
+      </div>
+    </div>
+
+
+    <div class="section visualdesign">
+      <div class="container">
+        <h2>VISUAL DESIGN</h2>
+        <img src="img/dashboard/home.png" alt="final home screen visual design pale colors">
+        <p>-I used pale color as a background not to draw attention away from the critical data. </p>
+        <p>- Use of colors should be consistent. The same color shouldn't convey different meanings. If red is used for an alarming situation (like in the early warning system), it shouldn't be used with different purpose on the same screen.</p>
+        <div id="dashboardprototypebutton">
+          <a href="https://www.figma.com/proto/qt9oo5WpUMMkVHG6my6MiA/dashboard-design?node-id=2%3A85&scaling=min-zoom" class="button dashboardprototype" target="_blank">Try Prototype</a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h2>CONCLUSION</h2>
+        <p>In this project, I had the opportunity to improve my designing skills and learn about dashboard design principles by solving a real problem from my previous experience. It is surprising to know that it is still unsolved. </p>
+        <h3>Challenges</h3>
+        <p>- The biggest challenge was to fit all of the essential data in a fixed screen. It's necessary to understand the user's intention with the dashboard to find the best organization to satisfy all users' needs. </p>
+        <p>- There is a fine line between notifying users about the critical developments and desensitizing users by overloading them with frequent and many notifications.</p>
+        <p>- It was challenging to decide on the best display method to communicate the data presented.</p>
+        <h3>Lessons</h3>
+        <p>-<b>Learning a new tool:</b> During UX Bootcamp, I used Sketch for wireframing. Since some companies are switching to Figma, I used it for this project. It also enabled me to have an understanding of the advantages and disadvantages of
+          each tool.</p>
+        <p>-To not get distracted and draw my attention away from the project scope, I noted my key considerations checklist and the problem statement and kept it in sight all the time. It enabled me to focus on the problem, not the solution.</p>
+        <p>-I believe for the problem I’m trying to solve, ethnographic field study would have provided more accurate insights. In this project, I had the opportunity to observe the difference between what people say they do and what they actually
+          do.</p>
+        <p>Explaining how to do your job in theory is different than what you do in a time of crisis when you need to find efficient and practical solutions. To keep the challenge minimum, I conducted two usability tests and tried to get more insight
+          while the people are interacting with my design.</p>
+      </div>
+    </div>
+
+    <footer id="contact">
+      <div class="container">
+        <h2>Get in Touch</h2>
+      </div>
+      <div class="section">
+        <div class="container">
+          <p>
+            If you’d like to learn more about me, work together, or just have a chat, please get in touch.
+          </p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <a href="mailto:irembayrak1@gmail.com" class="button contact">Send me an email</a>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="container">
+          <ul>
+            <li class="smicon"> <a href="https://www.linkedin.com/in/irembayrak/" target="_blank">
+                <img src="img/linkedin.svg" alt="linkedin">
+              </a></li>
+            <li class="smicon">
+              <a href="https://www.behance.net/irembayrak" target="_blank">
+                <img src="img/behance.svg" alt="behance">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <p class="copyright">Copyright Irem Bayrak 2021</p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+
+</html>
