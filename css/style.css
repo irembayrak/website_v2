@@ -354,8 +354,8 @@ footer ul>li {
 }
 
 .column-storyboard img {
-  height: 300px;
-  width: 300px;
+  height: auto;
+  width: 100%;
 }
 
 .vocappimage {
