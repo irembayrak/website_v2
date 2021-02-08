@@ -147,8 +147,8 @@ header .container {
   max-width: 960px;
 }
 
-#hero .container {
-  max-width: 900px;
+#hero .widercontainer {
+  padding: 0 15px;
 }
 
 #aboutmain .container {
@@ -418,13 +418,13 @@ strong {
 }
 
 #logo {
-  max-width: 75px;
+  max-width: 60px;
   margin-top: 5px;
   transition: 0.5s;
 }
 
 #active-mobile {
-  background-color: #C8F449;
+  background-color: #D9F192;
 }
 
 nav>ul {
@@ -1220,6 +1220,10 @@ Medium devices (640px and larger)
 
   #usabilityissues2 p {
     margin-left: 30px;
+  }
+
+  #logo {
+    max-width: 75px;
   }
 
   .sketch {
